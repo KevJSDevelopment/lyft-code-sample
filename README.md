@@ -7,4 +7,3 @@ In order to make testing the app easier, I created a simple frontend folder that
 This object will be displayed on the page in a list if you are makeing the post request through the frontend page. You can add to this list with new requests if you continue to submit more strings in the input field.
 
 Otherwise, you may use any other method for making POST request to http://localhost:3000/test with the argument "string_to_cut" and it will return a JSON object with the key “return_string” and a string containing every third letter from the original string.
-# lyft-code-sample
