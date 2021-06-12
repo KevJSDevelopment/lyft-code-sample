@@ -8,9 +8,8 @@ Now you can start up the rails server on local host using command `rails s`
 
 
 You may use any method for making POST request to http://localhost:3000/test with the argument "string_to_cut" and it will return a JSON object with the key “return_string” and a string containing every third letter from the original string. 
-
-# *Note 
-    For testing purposes I used an app called Postman to send my POST request to http://localhost:3000/test with a body that contained the json object {"string_to_cut": *my-string*}. (replace *my-string* with any string you want to test)
+*Note* 
+For testing purposes I used an app called Postman to send my POST request to http://localhost:3000/test with a body that contained the json object {"string_to_cut": *my-string*}. (replace *my-string* with any string you want to test)
 
 Alternatively,
 
