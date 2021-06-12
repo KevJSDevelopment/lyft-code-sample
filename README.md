@@ -1,15 +1,24 @@
 # Lyft code sample
 
-For running this application you should clone this repository. 
+## STEP 1
+To run application you should clone this repository using either:
+
+SSH - `git clone git@github.com:KevJSDevelopment/lyft-code-sample.git`
+
+HTTPS - `git clone https://github.com/KevJSDevelopment/lyft-code-sample.git`
+
+## STEP 2
 
 Next, run command `bundle install` in the root of the repository you just cloned.
 
 Now you can start up the rails server on local host using command `rails s`
 
+## STEP 3
 
 You may use any method for making POST request to http://localhost:3000/test with the argument "string_to_cut" and it will return a JSON object with the key “return_string” and a string containing every third letter from the original string. 
 
-*For testing purposes I used an app called Postman to send my POST request to http://localhost:3000/test with a body that contained the json object {"string_to_cut": *my-string*}. (replace *my-string* with any string you want to test)*
+*NOTE*
+For testing purposes I used an app called Postman to send my POST request to http://localhost:3000/test with a body that contained the json object {"string_to_cut": *my-string*}. (replace *my-string* with any string you want to test)
 
 Alternatively,
 
