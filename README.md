@@ -31,3 +31,5 @@ After entering a string, the submit button will send a POST request to "/test" a
 
 After making your first request, your page should look like this -
 ![Alt text](lyft-sample-string-test.png?raw=true)
+
+Any additional requests will be added to the list
